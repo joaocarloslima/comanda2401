@@ -5,10 +5,11 @@ import Input from './components/Input';
 
 import { MaterialIcons } from '@expo/vector-icons';
 import Comanda from './app/Comanda';
+import Produtos from './app/Produtos';
 
 
 export default function App() {
-  return <Comanda ></Comanda>
+  return <Produtos />
   return (
     <View style={styles.container}>
       <Image style={styles.image} source={require('./assets/home.png')} />
